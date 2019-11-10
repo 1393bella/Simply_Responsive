@@ -1,0 +1,32 @@
+*{
+    vertical-align: top;
+    width: 200px;
+    height:150px;
+}
+
+#topBox{
+    background-color: dimgray;
+}
+
+#mainBox{
+    background-color: grey;
+}
+
+
+@media only screen and (max-width: 480px){
+    #phone {
+        background-color:yellow;
+
+    }
+}
+@media only screen and (min-width:481px){
+    #tablet{
+        background-color:yellow;
+        /* width: 25%; */
+    }
+}
+@media only screen and (min-width: 1024px){
+    #desktop{
+        background-color:yellow;
+    }
+}
